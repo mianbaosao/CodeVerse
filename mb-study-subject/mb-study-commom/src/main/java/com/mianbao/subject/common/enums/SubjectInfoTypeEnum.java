@@ -9,7 +9,8 @@ public enum SubjectInfoTypeEnum {
     RADIO(1, "单选"),
     MULTIPLE(2, "多选"),
     JUDGE(3, "判断"),
-    BRIEF(4, "简答");
+    BRIEF(4, "简答"),
+    CODE(5,"编程");
 
     public int code;
     public String desc;
