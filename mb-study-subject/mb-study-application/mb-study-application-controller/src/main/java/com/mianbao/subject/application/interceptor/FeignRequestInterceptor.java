@@ -12,7 +12,7 @@ import java.util.Objects;
 
 /**
  * Feign请求拦截器
- *
+ *这个作用就是当我微服务内部不同模块用feign调用了此时这个模块的时候此时的请求会带一个loginid过去
  * @author: bread
  * @date: 2024/9/24
  */
