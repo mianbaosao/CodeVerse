@@ -1,6 +1,7 @@
 package com.mianbao.subject.domain.util;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import org.apache.commons.lang3.StringUtils;
@@ -47,7 +48,18 @@ public class CacheUtil<K, V> {
 
     public Map<K, V> getMapResult(String cacheKey, Class<V> clazz,
                                   Function<String, Map<K, V>> function) {
-        return new HashMap<>();
+        HashMap<K, V> map = new HashMap<>();
+        String content = localCache.getIfPresent(cacheKey);
+        if (StringUtils.isNotBlank(content)) {
+            map = (HashMap<K, V>) JSON.parseObject(content, new TypeReference<Map<K, V>>() {
+            });
+        } else {
+            map = (HashMap<K, V>) function.apply(cacheKey);
+            if (!CollectionUtils.isEmpty(map)) {
+                localCache.put(cacheKey, JSON.toJSONString(map));
+            }
+        }
+        return map;
     }
 
 }
