@@ -31,7 +31,6 @@ public class SubjectHandlerTypeFactory implements InitializingBean {
     }
 
 
-
     @Override
     public void afterPropertiesSet() throws Exception {
         for(SubjectTypeHandler subjectTypeHandler:subjectTypeHandlerList){
