@@ -101,6 +101,7 @@ public class RedisUtil {
     }
 
     public Object addScore(String key, Object obj, double score) {
+        // 使用 RedisTemplate 的 opsForZSet 方法获取操作有序集合的接口
         return redisTemplate.opsForZSet().incrementScore(key, obj, score);
     }
 

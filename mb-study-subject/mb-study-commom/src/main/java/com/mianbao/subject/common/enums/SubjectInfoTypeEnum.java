@@ -24,8 +24,7 @@ public enum SubjectInfoTypeEnum {
         for(SubjectInfoTypeEnum resultCodeEnum : SubjectInfoTypeEnum.values()){
             if(resultCodeEnum.code == codeVal){
                 return resultCodeEnum;
-            }
-        }
+            } }
         return null;
     }
     public int getCode() {
