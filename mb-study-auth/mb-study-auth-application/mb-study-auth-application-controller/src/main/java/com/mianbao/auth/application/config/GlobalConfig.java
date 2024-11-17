@@ -21,12 +21,22 @@ import java.util.List;
 @Configuration
 public class GlobalConfig extends WebMvcConfigurationSupport {
 
+    /**
+     * 配置消息转换器，添加自定义的 MappingJackson2HttpMessageConverter
+     * 使 JSON 序列化忽略 null 字段
+     * @param converters Spring 提供的 HTTP 消息转换器列表
+     */
     @Override
     protected void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         super.configureMessageConverters(converters);
         converters.add(mappingJackson2HttpMessageConverter());
     }
 
+    /**
+     * 配置拦截器，将自定义的 LoginInterceptor 注册到 Spring MVC 拦截器链中
+     * 设置拦截所有路径，但排除 "/user/doLogin"
+     * @param registry 拦截器注册器，用于添加自定义拦截器
+     */
     @Override
     protected void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor())
