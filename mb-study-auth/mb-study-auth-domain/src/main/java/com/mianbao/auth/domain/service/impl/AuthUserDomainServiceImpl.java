@@ -109,6 +109,7 @@ public class AuthUserDomainServiceImpl implements AuthUserDomainService {
                 .map(AuthRolePermission::getPermissionId).collect(Collectors.toList());
         //根据roleId查权限
         List<AuthPermission> permissionList = authPermissionService.queryByRoleList(permissionIdList);
+        //auth.permission
         String permissionKey = redisUtil.buildKey(authPermissionPrefix, authUser.getUserName());
         redisUtil.set(permissionKey, new Gson().toJson(permissionList));
 

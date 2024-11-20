@@ -15,6 +15,7 @@ import java.util.Map;
  * @Description: 题目类型工厂
  * @Author:bread
  * @Date: 2024-08-26 17:37
+ * 实现了 InitializingBean 接口，在 Spring 完成依赖注入后会自动调用 afterPropertiesSet 方法进行初始化。
  */
 @Component
 public class SubjectHandlerTypeFactory implements InitializingBean {

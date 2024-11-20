@@ -21,7 +21,6 @@ public class CustomNameThreadFactory implements ThreadFactory {
     private final AtomicInteger threadNumber = new AtomicInteger(1);
     //线程名称的前缀，包括线程池的编号。每个线程名称将以这个前缀开始，后面会接上线程编号
     private final String namePrefix;
-
     CustomNameThreadFactory(String name) {
         //通过 SecurityManager 来获取当前线程的线程组。如果没有安全管理器，则使用当前线程的线程组。
         SecurityManager s = System.getSecurityManager();
@@ -36,7 +35,6 @@ public class CustomNameThreadFactory implements ThreadFactory {
                 poolNumber.getAndIncrement() +
                 "-thread-";
     }
-
     @Override
     public Thread newThread(Runnable r) {
         Thread t = new Thread(group, r,
@@ -50,5 +48,31 @@ public class CustomNameThreadFactory implements ThreadFactory {
         }
         return t;
     }
-
+/**
+ *  static class DefaultThreadFactory implements ThreadFactory {
+ *         private static final AtomicInteger poolNumber = new AtomicInteger(1);
+ *         private final ThreadGroup group;
+ *         private final AtomicInteger threadNumber = new AtomicInteger(1);
+ *         private final String namePrefix;
+ *
+ *         DefaultThreadFactory() {
+ *             SecurityManager s = System.getSecurityManager();
+ *             group = (s != null) ? s.getThreadGroup() :
+ *                                   Thread.currentThread().getThreadGroup();
+ *             namePrefix = "pool-" +
+ *                           poolNumber.getAndIncrement() +
+ *                          "-thread-";
+ *         }
+ *
+ *         public Thread newThread(Runnable r) {
+ *             Thread t = new Thread(group, r,
+ *                                   namePrefix + threadNumber.getAndIncrement(),
+ *                                   0);
+ *             if (t.isDaemon())
+ *                 t.setDaemon(false);
+ *             if (t.getPriority() != Thread.NORM_PRIORITY)
+ *                 t.setPriority(Thread.NORM_PRIORITY);
+ *             return t;
+ *         }
+ */
 }
