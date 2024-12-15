@@ -132,9 +132,13 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
         }
         List<SubjectCategoryBO> categoryBOList = SubjectCategoryConverter.INSTANCE.convertBoToCategory(subjectCategoryList);
         Map<Long, List<SubjectLabelBO>> map = new HashMap<>();
-        List<CompletableFuture<Map<Long, List<SubjectLabelBO>>>> completableFutureList = categoryBOList.stream().map(category ->
+        // 创建异步任务列表
+        //  // 将categoryBOList中的每个元素映射为一个CompletableFuture，该CompletableFuture在labelThreadPool线程池中异步执行getLabelBOList方法
+        List<CompletableFuture<Map<Long, List<SubjectLabelBO>>>> completableFutureList =
+                categoryBOList.stream().map(category ->
                 CompletableFuture.supplyAsync(() -> getLabelBOList(category), labelThreadPool)
         ).collect(Collectors.toList());
+        // 遍历CompletableFutureList中的每个CompletableFuture
         completableFutureList.forEach(future -> {
             try {
                 Map<Long, List<SubjectLabelBO>> resultMap = future.get();

@@ -21,7 +21,7 @@ public class ThreadPoolConfig {
     public ThreadPoolExecutor getLabelThreadPool() {
         return new ThreadPoolExecutor(20, 100, 5,
                 TimeUnit.SECONDS, new LinkedBlockingDeque<>(40),
-// 默认线程工厂   Executors.defaultThreadFactory(),
+ // 默认线程工厂   Executors.defaultThreadFactory(),
                 new CustomNameThreadFactory("label"),
                 new ThreadPoolExecutor.CallerRunsPolicy());
     }
