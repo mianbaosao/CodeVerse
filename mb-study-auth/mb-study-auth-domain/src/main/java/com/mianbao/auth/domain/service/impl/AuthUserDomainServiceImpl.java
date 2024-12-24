@@ -133,6 +133,7 @@ public class AuthUserDomainServiceImpl implements AuthUserDomainService {
         }
         AuthUserBO authUserBO = new AuthUserBO();
         authUserBO.setUserName(openId);
+        System.out.println(openId+"这是openid");
         this.register(authUserBO);
         StpUtil.login(openId);
         SaTokenInfo tokenInfo = StpUtil.getTokenInfo();

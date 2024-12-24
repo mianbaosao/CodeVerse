@@ -97,7 +97,9 @@ public class SubjectInfoDomainServiceImpl implements SubjectInfoDomainService {
         subjectInfoEs.setSubjectType(subjectInfo.getSubjectType());
         subjectEsService.insert(subjectInfoEs);
         //redis放入Zset计入排行榜
+        System.out.println("此时的loginId为"+LoginUtil.getLoginId());
         redisUtil.addScore(RANK_KEY, LoginUtil.getLoginId(), 1);
+
     }
 
     @Override

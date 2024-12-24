@@ -10,6 +10,7 @@ import com.mianbao.auth.domain.entity.AuthPermissionBO;
 import com.mianbao.auth.domain.service.AuthPermissionDomainService;
 import com.mianbao.auth.entity.Result;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +26,7 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("/permission/")
 @Slf4j
+@CrossOrigin("*")
 public class PermissionController {
 
     @Resource

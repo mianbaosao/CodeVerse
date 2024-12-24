@@ -30,6 +30,7 @@
         <module name="qh-club-domain" />
         <module name="mb-study-auth-application-controller" />
         <module name="mb-study-starter" />
+        <module name="mb-study-auth-domain" />
         <module name="mb-study-domain" />
         <module name="mb-study-forum-infrastructure" />
         <module name="mb-study-auth-api" />
@@ -38,12 +39,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="mb-stduy-forum-domain" target="8" />
-      <module name="mb-study-application-job" target="1.5" />
-      <module name="mb-study-application-mq" target="1.5" />
-      <module name="mb-study-auth-application-job" target="1.5" />
-      <module name="mb-study-auth-application-mq" target="1.5" />
-      <module name="mb-study-auth-domain" target="1.8" />
-      <module name="mb-study-auth-starter-api" target="1.8" />
       <module name="qh-club-application" target="8" />
       <module name="qh-club-commom" target="1.8" />
       <module name="qh-club-domain" target="8" />

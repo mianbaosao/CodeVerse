@@ -8,6 +8,7 @@ import com.bread.oss.entity.Result;
 import com.bread.oss.service.FileService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
@@ -21,6 +22,7 @@ import java.util.List;
  * @Date: 2024-09-11 19:39
  */
 @RestController
+@CrossOrigin(origins = "http://localhost:8003", allowCredentials = "true")
 public class FileController {
     @Resource
     private MinioAdapterImpl minioAdapter;
@@ -53,6 +55,7 @@ public class FileController {
     @RequestMapping("/upload")
     public Result upload(MultipartFile uploadFile, String bucket, String objectName) throws Exception {
         String url = fileService.uploadFile(uploadFile, bucket, objectName);
+        System.out.println("上传图片url为:"+url);
         return Result.ok(url);
     }
 }

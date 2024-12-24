@@ -44,18 +44,18 @@ public class LoginFilter implements GlobalFilter {
         ServerHttpRequest.Builder mutate = request.mutate();
         String url = request.getURI().getPath();
         log.info("LoginFilter.filter.url:{}", url);
-
         if (url.equals("/user/doLogin")) {
             return chain.filter(exchange);
         }
 
+
         SaTokenInfo tokenInfo = StpUtil.getTokenInfo();
         String loginId = (String) tokenInfo.getLoginId();
         String lockKey = LOCK_KEY_PREFIX + loginId; // 创建锁的唯一键
-
+        mutate.header("loginId", loginId);
         // 尝试获取分布式锁
         Boolean isLockAcquired = redisTemplate.opsForValue().setIfAbsent(lockKey, "lock", 10, TimeUnit.SECONDS);
-
+        log.info(String.valueOf(isLockAcquired)+"这是分布式锁的获取是否");
         if (Boolean.TRUE.equals(isLockAcquired)) {
             try {
                 log.info("Lock acquired for loginId: {}", loginId);

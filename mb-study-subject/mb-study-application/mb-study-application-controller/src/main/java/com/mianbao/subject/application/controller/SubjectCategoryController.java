@@ -30,6 +30,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/subject/category")
 @Slf4j
+@CrossOrigin(origins = "http://localhost:8003", allowCredentials = "true")
 public class SubjectCategoryController {
     @Resource
     private SubjectCategoryDomainService subjectCategoryDomainService;
