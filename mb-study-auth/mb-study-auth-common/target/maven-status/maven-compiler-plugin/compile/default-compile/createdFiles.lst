@@ -1,0 +1,4 @@
+com\mianbao\auth\common\entity\PageResult.class
+com\mianbao\auth\common\enums\IsDeletedFlagEnum.class
+com\mianbao\auth\common\entity\PageInfo.class
+com\mianbao\auth\common\enums\AuthUserStatusEnum.class

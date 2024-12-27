@@ -1,0 +1,37 @@
+
+u
+java:S2293Â"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+s
+java:S1192½"\Define a constant instead of duplicating this literal "isExistDocById.exception:{}" 3 times.(Á¹Îä
+†
+java:S1488W"kImmediately return this expression instead of assigning it to the temporary variable "restHighLevelClient".(…ë‡¬ûÿÿÿÿ
+u
+java:S1488Ç"^Immediately return this expression instead of assigning it to the temporary variable "source".(€¹Òç
+u
+java:S1488×"^Immediately return this expression instead of assigning it to the temporary variable "source".(€¹Òç
+z
+java:S1488‚"^Immediately return this expression instead of assigning it to the temporary variable "search".(©Ğì¥øÿÿÿÿ
+p
+java:S1104/"UMake clientMap a static final constant or non-public and provide accessors if needed.(›ê¾øÿÿÿÿ
+J
+java:S1444/"/Make this "public static clientMap" field final(›ê¾øÿÿÿÿ
+A
+java:S5411ş"*Use the primitive boolean expression here.(ç“•î
+Y
+java:S2583A"CChange this condition so that it does not always evaluate to "true"(ì©
+8
+java:S2386/"Make this member "protected".(›ê¾øÿÿÿÿ
+;
+java:S1168Ì"$Return an empty map instead of null.(¥¹ï
+;
+java:S1168Ü"$Return an empty map instead of null.(¥¹ï
+T
+java:S1854ê"=Remove this useless assignment to local variable "sortOrder".(ãµ¨‘
+E
+java:S1481ê".Remove this unused "sortOrder" local variable.(ãµ¨‘
+S
+java:S1854·"<Remove this useless assignment to local variable "failures".(Ş„›Ú
+D
+java:S1481·"-Remove this unused "failures" local variable.(Ş„›Ú
+a
+java:S3252É"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(¥ŞÂÓûÿÿÿÿ

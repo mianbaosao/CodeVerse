@@ -1,0 +1,52 @@
+server:
+  port: 2001
+
+spring:
+  datasource:
+    username: root
+    password: mTpDVAN9EtYaw2MbB0R9z+G33EAkPx6U4EGN7S5IJsQi+dy/x6Elbo1qskbYIrz9417+P8HEX734TvqNsvV5DQ==
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qihang-club?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 20
+      min-idle: 20
+      max-active: 100
+      max-wait: 60000
+      connection-properties: config.decrypt=true;config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMNuyTmtvHGYk+6nmeHHJV5BJAcgu7use0ch5UgqD24tm8dVmJzeom0FNy+ENHq4xOMWh3bKxu1PQpIOIHLpyg8CAwEAAQ==
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: 123456
+      filter:
+        stat:
+          enabled: true
+          slow-sql-millis: 2000
+          log-slow-sql: true
+        wall:
+          enabled: true
+        config:
+          enabled: true
+
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 0
+    # Redis服务器地址
+    host: 117.72.37.31
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: he13140303042
+    # 连接超时时间
+    timeout: 2s
+    lettuce:
+      pool:
+        # 连接池最大连接数
+        max-active: 200
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1ms
+        # 连接池中的最大空闲连接
+        max-idle: 10
+        # 连接池中的最小空闲连接
+        min-idle: 0

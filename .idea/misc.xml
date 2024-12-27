@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/qh-club-subject/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-weChat/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-online/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-forum/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-forum/mb-study-forum-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-forum/mb-study-forum-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-subject-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-commom/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-application/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-stduy-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-practice/mb-study-prcatice-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-prcatice/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application-job/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application-jobs/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-job/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-forum/mb-stduy-forum-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-job/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

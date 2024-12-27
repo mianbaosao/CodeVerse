@@ -1,0 +1,4 @@
+com\mianbao\auth\api\UserFeignService.class
+com\mianbao\auth\entity\Result.class
+com\mianbao\auth\entity\ResultCodeEnum.class
+com\mianbao\auth\entity\AuthUserDTO.class

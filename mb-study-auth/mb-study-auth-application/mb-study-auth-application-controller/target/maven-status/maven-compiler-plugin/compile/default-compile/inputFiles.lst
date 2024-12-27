@@ -1,0 +1,15 @@
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\convert\AuthRolePermissionDTOConverter.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\dto\AuthRolePermissionDTO.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\interceptor\LoginInterceptor.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\config\GlobalConfig.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\controller\RolePermissionController.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\controller\RoleController.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\context\LoginContextHolder.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\context\LoginContextHolder.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\controller\UserController.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\convert\AuthRoleDTOConverter.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\convert\AuthUserDTOConverter.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\dto\AuthPermissionDTO.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\dto\AuthRoleDTO.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\controller\PermissionController.java
+E:\qihang-master\mianbao-study\mb-study-auth\mb-study-auth-application\mb-study-auth-application-controller\src\main\java\com\mianbao\auth\application\convert\AuthPermissionDTOConverter.java

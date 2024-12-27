@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-online/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-online/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-oss/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-practice/mb-study-prcatice-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-practice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-prcatice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-subject-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-subject/mb-study-subject-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-weChat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mb-study-weChat/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

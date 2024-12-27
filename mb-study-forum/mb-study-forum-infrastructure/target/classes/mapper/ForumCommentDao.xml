@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mianbao.forum.infa.basic.dao.ForumCommentDao">
+
+    <resultMap type="com.mianbao.forum.infa.basic.entity.ForumComment" id="ForumCommentMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="blogid" column="blogId" jdbcType="INTEGER"/>
+        <result property="userid" column="userId" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="time" column="time" jdbcType="TIMESTAMP"/>
+        <result property="parentid" column="parentId" jdbcType="INTEGER"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="cover" column="cover" jdbcType="VARCHAR"/>
+        <result property="parentname" column="parentName" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ForumCommentMap">
+        select id,
+               blogId,
+               userId,
+               username,
+               time,
+               parentId,
+               content,
+               cover,
+               parentName
+        from forum_comment
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ForumCommentMap">
+        select
+        id, blogId, userId, username, time, parentId, content, cover, parentName
+        from forum_comment
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="blogid != null">
+                and blogId = #{blogid}
+            </if>
+            <if test="userid != null">
+                and userId = #{userid}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="time != null">
+                and time = #{time}
+            </if>
+            <if test="parentid != null">
+                and parentId = #{parentid}
+            </if>
+            <if test="content != null and content != ''">
+                and content = #{content}
+            </if>
+            <if test="cover != null and cover != ''">
+                and cover = #{cover}
+            </if>
+            <if test="parentname != null and parentname != ''">
+                and parentName = #{parentname}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from forum_comment
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="blogid != null">
+                and blogId = #{blogid}
+            </if>
+            <if test="userid != null">
+                and userId = #{userid}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="time != null">
+                and time = #{time}
+            </if>
+            <if test="parentid != null">
+                and parentId = #{parentid}
+            </if>
+            <if test="content != null and content != ''">
+                and content = #{content}
+            </if>
+            <if test="cover != null and cover != ''">
+                and cover = #{cover}
+            </if>
+            <if test="parentname != null and parentname != ''">
+                and parentName = #{parentname}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into forum_comment(blogId, userId, username, time, parentId, content, cover, parentName)
+        values (#{blogid}, #{userid}, #{username}, #{time}, #{parentid}, #{content}, #{cover}, #{parentname})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into forum_comment(blogId, userId, username, time, parentId, content, cover, parentName)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.blogid}, #{entity.userid}, #{entity.username}, #{entity.time}, #{entity.parentid},
+            #{entity.content}, #{entity.cover}, #{entity.parentname})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into forum_comment(blogId, userId, username, time, parentId, content, cover, parentName)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.blogid}, #{entity.userid}, #{entity.username}, #{entity.time}, #{entity.parentid},
+            #{entity.content}, #{entity.cover}, #{entity.parentname})
+        </foreach>
+        on duplicate key update
+        blogId = values(blogId),
+        userId = values(userId),
+        username = values(username),
+        time = values(time),
+        parentId = values(parentId),
+        content = values(content),
+        cover = values(cover),
+        parentName = values(parentName)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update forum_comment
+        <set>
+            <if test="blogid != null">
+                blogId = #{blogid},
+            </if>
+            <if test="userid != null">
+                userId = #{userid},
+            </if>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="time != null">
+                time = #{time},
+            </if>
+            <if test="parentid != null">
+                parentId = #{parentid},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content},
+            </if>
+            <if test="cover != null and cover != ''">
+                cover = #{cover},
+            </if>
+            <if test="parentname != null and parentname != ''">
+                parentName = #{parentname},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete
+        from forum_comment
+        where id = #{id}
+    </delete>
+
+</mapper>
+

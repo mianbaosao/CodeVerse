@@ -1,0 +1,7 @@
+
+x
+java:S1488Š"aImmediately return this expression instead of assigning it to the temporary variable "tokenInfo".(¡ãô
+l
+java:S2229ˆ"U"register's" @Transactional requirement is incompatible with the one for this method.(İüÌ÷
+Y
+java:S1155E">Use isEmpty() to check whether the collection is empty or not.(‚ŠÚèüÿÿÿÿ

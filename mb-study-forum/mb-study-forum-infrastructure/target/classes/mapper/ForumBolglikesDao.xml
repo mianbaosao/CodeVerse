@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mianbao.forum.infa.basic.dao.ForumBolglikesDao">
+
+    <resultMap type="com.mianbao.forum.infa.basic.entity.ForumBolglikes" id="ForumBolglikesMap">
+        <result property="likeId" column="like_id" jdbcType="INTEGER"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="blogId" column="blog_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ForumBolglikesMap">
+        select like_id,
+               user_id,
+               blog_id
+        from forum_bolglikes
+        where like_id = #{likeId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ForumBolglikesMap">
+        select
+        like_id, user_id, blog_id
+        from forum_bolglikes
+        <where>
+            <if test="likeId != null">
+                and like_id = #{likeId}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="blogId != null">
+                and blog_id = #{blogId}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from forum_bolglikes
+        <where>
+            <if test="likeId != null">
+                and like_id = #{likeId}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="blogId != null">
+                and blog_id = #{blogId}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="likeId" useGeneratedKeys="true">
+        insert into forum_bolglikes(user_id, blog_id)
+        values (#{userId}, #{blogId})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="likeId" useGeneratedKeys="true">
+        insert into forum_bolglikes(user_id, blog_id)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.userId}, #{entity.blogId})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="likeId" useGeneratedKeys="true">
+        insert into forum_bolglikes(user_id, blog_id)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.userId}, #{entity.blogId})
+        </foreach>
+        on duplicate key update
+        user_id = values(user_id),
+        blog_id = values(blog_id)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update forum_bolglikes
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="blogId != null">
+                blog_id = #{blogId},
+            </if>
+        </set>
+        where like_id = #{likeId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete
+        from forum_bolglikes
+        where like_id = #{likeId}
+    </delete>
+
+</mapper>
+

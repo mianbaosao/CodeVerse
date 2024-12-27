@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="mb-study-practice" value="mb-stduy-practice" />
+        <entry key="mb-study-practice-server" value="mb-study-prcatice-server" />
+      </map>
+    </option>
+  </component>
+</project>

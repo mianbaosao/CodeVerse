@@ -128,17 +128,55 @@ public class AuthUserDomainServiceImpl implements AuthUserDomainService {
     public SaTokenInfo doLogin(String validCode) {
         String loginKey = redisUtil.buildKey(LOGIN_PREFIX, validCode);
         String openId = redisUtil.get(loginKey);
+
         if (StringUtils.isBlank(openId)) {
             return null;
         }
+
+        // 创建一个AuthUserBO，包含用户的用户名
         AuthUserBO authUserBO = new AuthUserBO();
         authUserBO.setUserName(openId);
-        System.out.println(openId+"这是openid");
+        System.out.println(openId + " 这是openid");
+
+        // 调用register方法注册用户并初始化用户信息，包括权限
         this.register(authUserBO);
+
+        // 登录操作，使用 openId 作为登录标识
         StpUtil.login(openId);
+
+        // 获取当前用户的权限，并将其存储到Redis中
+
+            // 查询该用户的角色和权限信息
+            AuthRole authRole = new AuthRole();
+            authRole.setRoleKey(AuthConstant.NORMAL_USER); // 假设角色是普通用户
+            AuthRole roleResult = authRoleService.queryByCondition(authRole);
+            Long roleId = roleResult.getId();
+
+            // 查询角色的权限
+            AuthRolePermission authRolePermission = new AuthRolePermission();
+            authRolePermission.setRoleId(roleId);
+            List<AuthRolePermission> rolePermissionList = authRolePermissionService.queryByCondition(authRolePermission);
+
+            List<Long> permissionIdList = rolePermissionList.stream()
+                    .map(AuthRolePermission::getPermissionId).collect(Collectors.toList());
+
+            // 根据权限ID查找具体的权限
+            List<AuthPermission> permissionList = authPermissionService.queryByRoleList(permissionIdList);
+
+            // 将权限信息存入Redis
+            String permissionKey = redisUtil.buildKey(authPermissionPrefix, openId);
+            redisUtil.set(permissionKey, new Gson().toJson(permissionList));
+
+            // 角色信息存入Redis
+            String roleKey = redisUtil.buildKey(authRolePrefix, openId);
+            redisUtil.set(roleKey, new Gson().toJson(roleResult));
+
+
+        // 获取并返回 Token 信息
         SaTokenInfo tokenInfo = StpUtil.getTokenInfo();
         return tokenInfo;
     }
+
 
     @Override
     public AuthUserBO getUserInfo(AuthUserBO authUserBO) {

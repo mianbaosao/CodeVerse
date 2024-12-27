@@ -42,4 +42,5 @@ public class GlobalConfig extends WebMvcConfigurationSupport {
         return new MappingJackson2HttpMessageConverter(objectMapper);
     }
 
+
 }
