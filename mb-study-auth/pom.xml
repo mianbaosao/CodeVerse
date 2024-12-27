@@ -15,7 +15,7 @@
         <module>mb-study-auth-infrastructure</module>
         <module>mb-study-auth-common</module>
         <module>mb-study-auth-starter</module>
-        <module>mb-study-auth-starter-api</module>
+<!--        <module>mb-study-auth-starter-api</module>-->
         <module>mb-study-auth-api</module>
     </modules>
 

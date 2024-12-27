@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/mb-study-prcatice/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -10,6 +13,7 @@
         <module name="qh-club-starter" />
         <module name="mb-study-subject-api" />
         <module name="mb-study-gateway" />
+        <module name="mb-study-practice-server" />
         <module name="mb-study-forum-application" />
         <module name="mb-study-auth-starter" />
         <module name="qh-club-infrastructure" />
@@ -31,6 +35,7 @@
         <module name="mb-study-auth-application-controller" />
         <module name="mb-study-starter" />
         <module name="mb-study-auth-domain" />
+        <module name="mb-study-practice-api" />
         <module name="mb-study-domain" />
         <module name="mb-study-forum-infrastructure" />
         <module name="mb-study-auth-api" />
@@ -39,6 +44,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="mb-stduy-forum-domain" target="8" />
+      <module name="mb-study-practice" target="1.8" />
+      <module name="mb-study-prcatice-api" target="1.8" />
       <module name="qh-club-application" target="8" />
       <module name="qh-club-commom" target="1.8" />
       <module name="qh-club-domain" target="8" />
@@ -46,5 +53,11 @@
       <module name="qh-club-starter" target="8" />
       <module name="qh-club-subject-api" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mb-study-practice" options="" />
+      <module name="mb-study-prcatice-api" options="-parameters" />
+    </option>
   </component>
 </project>

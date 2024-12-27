@@ -13,8 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>mb-study-auth-application-controller</module>
-        <module>mb-study-auth-application-mq</module>
-        <module>mb-study-auth-application-job</module>
     </modules>
 
 

@@ -13,8 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>mb-study-application-controller</module>
-        <module>mb-study-application-job</module>
-        <module>mb-study-application-mq</module>
     </modules>
 
 
