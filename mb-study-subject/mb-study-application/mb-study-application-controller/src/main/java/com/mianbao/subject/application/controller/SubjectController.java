@@ -34,9 +34,7 @@ public class SubjectController {
 
     @Resource
     private SubjectInfoDomainService subjectInfoDomainService;
-    /**
-     * 新增题目
-     */
+
     /**
      * 新增题目
      */
