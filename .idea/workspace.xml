@@ -10,14 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Fix:修改部分逻辑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java/com/mianbao/subject/common/entity/CategoryTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/target/classes/com/mianbao/subject/common/entity/CategoryTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectBrief.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectBrief.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectJudge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectRadio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +346,7 @@
       <workItem from="1735476549377" duration="9002000" />
       <workItem from="1735532327058" duration="1206000" />
       <workItem from="1735611288829" duration="3001000" />
-      <workItem from="1735906135820" duration="13973000" />
+      <workItem from="1735906135820" duration="15567000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
@@ -693,7 +691,7 @@
       <option name="project" value="LOCAL" />
       <updated>1732087149761</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

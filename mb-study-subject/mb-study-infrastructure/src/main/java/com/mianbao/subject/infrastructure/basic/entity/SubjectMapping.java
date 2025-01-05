@@ -8,8 +8,8 @@ import java.io.Serializable;
 /**
  * 题目分类关系表(SubjectMapping)实体类
  *
- * @author makejava
- * @since 2024-08-23 15:29:56
+ * @author bread
+ * @since 2024-10-23 15:29:56
  */
 @Data
 public class SubjectMapping implements Serializable {

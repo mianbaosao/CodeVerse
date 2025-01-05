@@ -8,8 +8,8 @@ import java.io.Serializable;
 /**
  * 多选题信息表(SubjectMultiple)实体类
  *
- * @author makejava
- * @since 2024-08-26 15:53:36
+ * @author bread
+ * @since 2024-10-26 15:53:36
  */
 @Data
 public class SubjectMultiple implements Serializable {
