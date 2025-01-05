@@ -9,6 +9,7 @@ import com.mianbao.subject.domain.convert.MultipleSubejectConverter;
 import com.mianbao.subject.domain.entity.SubjectInfoBO;
 import com.mianbao.subject.domain.entity.SubjectOptionBO;
 
+import com.mianbao.subject.infrastructure.basic.entity.SubjectBrief;
 import com.mianbao.subject.infrastructure.basic.entity.SubjectMultiple;
 import com.mianbao.subject.infrastructure.basic.service.SubjectMultipleService;
 
