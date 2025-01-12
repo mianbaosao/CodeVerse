@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mianbao.subject.infrastructure.basic.dao.SubjectCodeDao">
+
+    <resultMap type="com.mianbao.subject.infrastructure.basic.entity.SubjectCode" id="SubjectCodeMap">
+        <!-- 主键映射 -->
+        <id property="id" column="id" javaType="java.lang.Long" jdbcType="BIGINT"/>
+
+        <!-- 普通字段映射 -->
+        <result property="subjectId" column="subject_id" javaType="java.lang.Long" jdbcType="BIGINT"/>
+        <result property="subjectDesc" column="subject_desc" javaType="java.lang.String" jdbcType="VARCHAR"/>
+
+        <!-- 复杂类型字段映射 -->
+        <result property="nums" column="nums" javaType="java.util.List" jdbcType="VARCHAR"
+        typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler"/>
+        <result property="result" column="result" javaType="java.util.List" jdbcType="VARCHAR"
+                typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler"/>
+
+        <!-- 普通字段映射 -->
+        <result property="hints" column="hints" javaType="java.lang.String" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!-- 查询单个 -->
+    <select id="queryById" resultMap="SubjectCodeMap" parameterType="java.lang.Long">
+        SELECT
+            id,
+            subject_id,
+            subject_desc,
+            nums,
+            result,
+            hints
+        FROM subject_code
+        WHERE subject_id = #{id}
+    </select>
+
+
+
+
+
+</mapper>
+

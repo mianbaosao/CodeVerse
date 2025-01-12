@@ -10,7 +10,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-12-18T19:56:09+0800",
+    date = "2025-01-11T23:11:44+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_291 (Oracle Corporation)"
 )
 public class SubjectInfoConverterImpl implements SubjectInfoConverter {
@@ -73,6 +73,16 @@ public class SubjectInfoConverterImpl implements SubjectInfoConverter {
             if ( list != null ) {
                 subjectInfoBO.setOptionList( new ArrayList<SubjectAnswerBO>( list ) );
             }
+            subjectInfoBO.setSubjectDesc( subjectOptionBO.getSubjectDesc() );
+            List<List<Integer>> list1 = subjectOptionBO.getNums();
+            if ( list1 != null ) {
+                subjectInfoBO.setNums( new ArrayList<List<Integer>>( list1 ) );
+            }
+            List<List<Integer>> list2 = subjectOptionBO.getResult();
+            if ( list2 != null ) {
+                subjectInfoBO.setResult( new ArrayList<List<Integer>>( list2 ) );
+            }
+            subjectInfoBO.setHints( subjectOptionBO.getHints() );
         }
         if ( subjectInfo != null ) {
             subjectInfoBO.setId( subjectInfo.getId() );

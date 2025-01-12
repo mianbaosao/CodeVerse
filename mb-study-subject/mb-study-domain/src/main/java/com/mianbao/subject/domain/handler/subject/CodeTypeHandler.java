@@ -1,8 +1,11 @@
 package com.mianbao.subject.domain.handler.subject;
 
 import com.mianbao.subject.common.enums.SubjectInfoTypeEnum;
+import com.mianbao.subject.domain.entity.SubjectAnswerBO;
 import com.mianbao.subject.domain.entity.SubjectInfoBO;
 import com.mianbao.subject.domain.entity.SubjectOptionBO;
+import com.mianbao.subject.infrastructure.basic.entity.SubjectCode;
+import com.mianbao.subject.infrastructure.basic.service.SubjectCodeService;
 import com.mianbao.subject.infrastructure.basic.service.SubjectInfoService;
 import org.springframework.stereotype.Component;
 
@@ -20,7 +23,8 @@ public class CodeTypeHandler implements SubjectTypeHandler{
     @Resource
     private SubjectInfoService subjectInfoService;
 
-
+    @Resource
+    private SubjectCodeService subjectCodeService;
 
     @Override
     public SubjectInfoTypeEnum getHandlerType() {
@@ -34,6 +38,11 @@ public class CodeTypeHandler implements SubjectTypeHandler{
 
     @Override
     public SubjectOptionBO query(int subjectId) {
-        return null;
+        SubjectCode subjectCode= subjectCodeService.queryById(Long.valueOf(subjectId));
+        SubjectOptionBO subjectOptionBO=new SubjectOptionBO();
+        subjectOptionBO.setNums(subjectCode.getNums());
+        subjectOptionBO.setResult(subjectCode.getResult());
+        subjectOptionBO.setHints(subjectCode.getHints());
+        return subjectOptionBO;
     }
 }

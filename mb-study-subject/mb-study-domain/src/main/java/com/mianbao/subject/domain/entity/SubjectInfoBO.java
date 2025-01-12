@@ -34,7 +34,7 @@ public class SubjectInfoBO extends PageInfo implements Serializable {
      */
     private String settleName;
     /**
-     * 题目类型 1单选 2多选 3判断 4简答
+     * 题目类型 1单选 2多选 3判断 4简答 5编程
      */
     private Integer subjectType;
     /**
@@ -114,6 +114,26 @@ public class SubjectInfoBO extends PageInfo implements Serializable {
      * 上一题
      */
     private Long lastSubjectId;
+
+    /**
+     * 题目描述
+     */
+    private String subjectDesc;
+
+    /**
+     * 输入
+     */
+    private List<List<Integer>>nums;
+
+    /**
+     * 输出
+     */
+    private List<List<Integer>>result;
+
+    /**
+     * 提示
+     */
+    private String hints;
 
 
 }

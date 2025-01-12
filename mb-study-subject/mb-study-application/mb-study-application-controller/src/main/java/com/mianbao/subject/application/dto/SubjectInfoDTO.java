@@ -33,7 +33,7 @@ public class SubjectInfoDTO extends PageInfo implements Serializable {
      */
     private String settleName;
     /**
-     * 题目类型 1单选 2多选 3判断 4简答
+     * 题目类型 1单选 2多选 3判断 4简答 5编程
      */
     private Integer subjectType;
     /**

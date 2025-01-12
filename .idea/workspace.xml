@@ -9,13 +9,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Fix:修改部分逻辑">
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSettingEncode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/subject/infrastructure/basic/entity/entity/SubjectCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/dao/SubjectCodeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/service/SubjectCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/service/impl/SubjectCodeCodeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper/SubjectCodeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb153df1-73fe-42b1-b9c7-cd7748c70419.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cb153df1-73fe-42b1-b9c7-cd7748c70419.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectBrief.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectBrief.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectJudge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectRadio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/dto/SubjectInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/dto/SubjectInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectInfoBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectInfoBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectOptionBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectOptionBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/SubjectInfoDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/SubjectInfoDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectInfoBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectInfoBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectOptionBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectOptionBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/MultipleTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/MultipleTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/SubjectInfoDomainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/SubjectInfoDomainService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/MultipleSubejectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/MultipleSubejectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/RadioSubjectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/RadioSubjectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,56 +140,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PracticeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ForumApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OssStartApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.PracticeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SubjectApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.WxApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/judge0-v1.13.1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PracticeApplication.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.AuthApplication.executor": "Run",
+    "Spring Boot.ForumApplication.executor": "Run",
+    "Spring Boot.GatewayApplication (1).executor": "Run",
+    "Spring Boot.OssStartApplication.executor": "Run",
+    "Spring Boot.PracticeApplication.executor": "Run",
+    "Spring Boot.SubjectApplication (1).executor": "Run",
+    "Spring Boot.WxApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/qihang-master/mianbao-study/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.3091954",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qihang-master\mianbao-study\mb-study-subject\mb-study-infrastructure\src\main\resources\mapper" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src\resources" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src\main\java\com\mianbao\practice\server" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-api\src\main\java\com\mianbao\practice\api\vo" />
-      <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-api\src\main\java\com\mianbao\practice\api\req" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mianbao.subject.infrastructure.config" />
       <recent name="com.mianbao.subject.infrastructure.basic.service.impl" />
       <recent name="com.mianbao.subject.infrastructure.basic.service" />
+      <recent name="com.mianbao.subject.infrastructure.basic.dao" />
+      <recent name="com.mianbao.subject.infrastructure.config" />
       <recent name="com.mianbao.subject.infrastructure.basic.entity" />
-      <recent name="com.mianbao.subject.infrastructure.basic.es" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,7 +204,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PracticeApplication">
+  <component name="RunManager" selected="Spring Boot.SubjectApplication (1)">
     <configuration name="PracticeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mianbao.practice.server.PracticeApplication" />
       <module name="mb-study-practice-server" />
@@ -190,6 +221,13 @@
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mb-study-auth-starter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mianbao.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mb-study-forum-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mianbao.forum.starter.ForumApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,6 +293,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.PracticeApplication" />
+      <item itemvalue="Spring Boot.ForumApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.GatewayApplication (1)" />
       <item itemvalue="Spring Boot.PracticeApplication" />
@@ -264,8 +303,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PracticeApplication" />
         <item itemvalue="Spring Boot.SubjectApplication (1)" />
+        <item itemvalue="Spring Boot.PracticeApplication" />
         <item itemvalue="Spring Boot.WxApplication" />
         <item itemvalue="Spring Boot.OssStartApplication" />
         <item itemvalue="Application.PracticeApplication" />
@@ -346,7 +385,8 @@
       <workItem from="1735476549377" duration="9002000" />
       <workItem from="1735532327058" duration="1206000" />
       <workItem from="1735611288829" duration="3001000" />
-      <workItem from="1735906135820" duration="15567000" />
+      <workItem from="1735906135820" duration="18239000" />
+      <workItem from="1736418412958" duration="28643000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
@@ -691,7 +731,7 @@
       <option name="project" value="LOCAL" />
       <updated>1732087149761</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

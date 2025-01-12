@@ -24,5 +24,24 @@ public class SubjectOptionBO implements Serializable {
      */
     private List<SubjectAnswerBO> optionList;
 
+    /**
+     * 题目描述
+     */
+    private String subjectDesc;
+
+    /**
+     * 输入
+     */
+    private List<List<Integer>>nums;
+
+    /**
+     * 输出
+     */
+    private List<List<Integer>>result;
+
+    /**
+     * 提示
+     */
+    private String hints;
 }
 

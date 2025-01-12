@@ -65,7 +65,7 @@ public class SubjectInfoDomainServiceImpl implements SubjectInfoDomainService {
         if(log.isInfoEnabled()){
             log.info("SubjectInfoDomainServiceImpl.add.bo:{}", JSON.toJSONString(subjectInfoBO));
         }
-        //工厂模式：一个工厂对应四个题目类型，根据传入的type进行自动映射选择
+        //工厂模式：一个工厂对应五个题目类型，根据传入的type进行自动映射选择
         SubjectInfo subjectInfo = SubjectInfoConverter.INSTANCE.converBoToInfo(subjectInfoBO);
         subjectInfo.setIsDeleted(IsDeleteEnum.UN_DELETED.getCode());
         subjectInfoService.insert(subjectInfo);
@@ -131,11 +131,42 @@ public class SubjectInfoDomainServiceImpl implements SubjectInfoDomainService {
         return pageResult;
     }
 
+
+    @Override
+    public PageResult<SubjectInfoBO> getCodeSubjectPage(SubjectInfoBO subjectInfoBO) {
+        PageResult<SubjectInfoBO> pageResult = new PageResult<>();
+        pageResult.setPageNo(subjectInfoBO.getPageNo());
+        pageResult.setPageSize(subjectInfoBO.getPageSize());
+        int start = (subjectInfoBO.getPageNo() - 1) * subjectInfoBO.getPageSize();
+        SubjectInfo subjectInfo = SubjectInfoConverter.INSTANCE.converBoToInfo(subjectInfoBO);
+        int count = subjectInfoService.countByCondition(subjectInfo, subjectInfoBO.getCategoryId()
+                , subjectInfoBO.getLabelId());
+        if (count == 0) {
+            return pageResult;
+        }
+        List<SubjectInfo> subjectInfoList = subjectInfoService.queryPage(subjectInfo, subjectInfoBO.getCategoryId()
+                , subjectInfoBO.getLabelId(), start, subjectInfoBO.getPageSize());
+        List<SubjectInfoBO> subjectInfoBOS = SubjectInfoConverter.INSTANCE.convertBoToLInfo(subjectInfoList);
+        subjectInfoBOS.forEach(info -> {
+            SubjectMapping subjectMapping = new SubjectMapping();
+            subjectMapping.setSubjectId(info.getId());
+            List<SubjectMapping> mappingList = subjectMappingService.queryLabelId(subjectMapping);
+            List<Long> labelIds = mappingList.stream().map(SubjectMapping::getLabelId).collect(Collectors.toList());
+            List<SubjectLabel> labelList = subjectLabelService.batchQueryById(labelIds);
+            List<String> labelNames = labelList.stream().map(SubjectLabel::getLabelName).collect(Collectors.toList());
+            info.setLabelName(labelNames);
+        });
+        pageResult.setResult(subjectInfoBOS);
+        pageResult.setTotal(count);
+        return pageResult;
+    }
+
     @Override
     public SubjectInfoBO querySubjectInfo(SubjectInfoBO subjectInfoBO) {
         SubjectInfo subjectInfo = subjectInfoService.queryById(subjectInfoBO.getId());
         SubjectTypeHandler handler = subjectHandlerTypeFactory.getHandler(subjectInfo.getSubjectType());
         SubjectOptionBO optionBO = handler.query(subjectInfo.getId().intValue());
+        System.out.println("此时编程题信息为"+JSON.toJSONString(optionBO));
         SubjectInfoBO bo = SubjectInfoConverter.INSTANCE.convertOptionAndInfoToBo(optionBO, subjectInfo);
         SubjectMapping subjectMapping = new SubjectMapping();
         subjectMapping.setSubjectId(subjectInfo.getId());

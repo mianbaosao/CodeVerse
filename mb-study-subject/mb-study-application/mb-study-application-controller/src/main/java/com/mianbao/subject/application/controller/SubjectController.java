@@ -12,7 +12,9 @@ import com.mianbao.subject.domain.entity.SubjectAnswerBO;
 import com.mianbao.subject.domain.entity.SubjectInfoBO;
 import com.mianbao.subject.domain.service.SubjectInfoDomainService;
 
+import com.mianbao.subject.infrastructure.basic.entity.SubjectCode;
 import com.mianbao.subject.infrastructure.basic.entity.SubjectInfoEs;
+import com.mianbao.subject.infrastructure.basic.service.SubjectCodeService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
@@ -35,6 +37,8 @@ public class SubjectController {
     @Resource
     private SubjectInfoDomainService subjectInfoDomainService;
 
+    @Resource
+    private SubjectCodeService subjectCodeService;
     /**
      * 新增题目
      */
@@ -86,6 +90,26 @@ public class SubjectController {
             return Result.fail("查询分页失败");
         }
     }
+
+    /**
+     * 查询编程题的详细页面
+     */
+    @PostMapping("/getCodeSubjectPage")
+    public Result<PageResult<SubjectInfoDTO>> getCodeSubjectPage(@RequestBody SubjectInfoDTO subjectInfoDTO) {
+        try {
+            if (log.isInfoEnabled()) {
+                log.info("SubjectController.getSubjectPage.dto:{}", JSON.toJSONString(subjectInfoDTO));
+            }
+            SubjectInfoBO subjectInfoBO= SubjectInfoDTOConverter.INSTANCE.convertDtoToInfoBO(subjectInfoDTO);
+            PageResult<SubjectInfoBO> boPageResult= subjectInfoDomainService.getCodeSubjectPage(subjectInfoBO);
+            return Result.success(boPageResult);
+        } catch (Exception e) {
+            log.error("SubjectCategoryController.add.error:{}", e.getMessage(), e);
+            return Result.fail("查询分页失败");
+        }
+    }
+
+
     /**
      * 查询题目信息
      */
@@ -105,6 +129,25 @@ public class SubjectController {
             return Result.fail("查询题目详情失败");
         }
     }
+    /**
+     * 查询编程题目信息
+     */
+    @PostMapping("/queryCodeSubjectInfo")
+    public Result<SubjectCode> queryCodeSubjectInfo(@RequestBody SubjectInfoDTO subjectInfoDTO) {
+        try {
+            if (log.isInfoEnabled()) {
+                log.info("SubjectController.querySubjectInfo.dto:{}", JSON.toJSONString(subjectInfoDTO));
+            }
+            Preconditions.checkNotNull(subjectInfoDTO.getId(), "题目id不能为空");
+            SubjectCode subjectCode= subjectCodeService.queryById(subjectInfoDTO.getId());
+            System.out.println("题目消息为"+subjectCode);
+            return Result.success(subjectCode);
+        } catch (Exception e) {
+            log.error("SubjectCategoryController.add.error:{}", e.getMessage(), e);
+            return Result.fail("编程信息查询失败");
+        }
+    }
+
     /**
      * 全文检索
      */

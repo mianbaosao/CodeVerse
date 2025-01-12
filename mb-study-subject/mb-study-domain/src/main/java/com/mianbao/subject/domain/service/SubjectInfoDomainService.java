@@ -28,6 +28,14 @@ public interface SubjectInfoDomainService {
      */
     PageResult<SubjectInfoBO> getSubjectPage(SubjectInfoBO subjectInfoBO);
 
+
+    /**
+     * 查询编程题
+     * @param subjectInfoBO
+     * @return
+     */
+    PageResult<SubjectInfoBO> getCodeSubjectPage(SubjectInfoBO subjectInfoBO);
+
     /**
      * 查看题目信息
      * @param subjectInfoBO
