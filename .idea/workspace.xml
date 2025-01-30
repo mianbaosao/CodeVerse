@@ -8,35 +8,115 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Fix:修改部分逻辑">
-      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSettingEncode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/subject/infrastructure/basic/entity/entity/SubjectCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/dao/SubjectCodeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/service/SubjectCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/service/impl/SubjectCodeCodeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper/SubjectCodeDao.xml" afterDir="false" />
+    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Feat:完成编程题的后端逻辑完成">
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/common/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/common/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/common/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/common/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/enums/IsDeletedFlagEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/GetShareCommentReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/GetShareMessageReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/GetShareMomentReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareCircleReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareCommentReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareMomentReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/SaveMomentCircleReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/SaveShareCircleReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/SaveShareCommentReplyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/UpdateShareCircleReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/vo/ShareCircleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/vo/ShareCommentReplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/vo/ShareMessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/vo/ShareMomentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/vo/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/CircleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/GlobalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/SensitiveConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/context/LoginContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/interceptor/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/interceptor/FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/mybatis/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/mybatis/MybatisPlusAllSqlLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/mybatis/SqlStatementInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/websocket/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/config/websocket/WebSocketServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/SensitiveWordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareCircleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareMomentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/SensitiveWordsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/ShareCircleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/ShareCommentReplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/ShareMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/ShareMomentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/dao/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/dto/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/dto/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/SensitiveWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/ShareCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/ShareCommentReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/ShareMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/ShareMoment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/entity/po/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/rpc/UserRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/sensitive/EndType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/sensitive/FlagIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/sensitive/WordContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/sensitive/WordFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/sensitive/WordType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/SensitiveWordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/ShareCircleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/ShareCommentReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/ShareMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/ShareMomentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/SensitiveWordsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/ShareCircleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/ShareCommentReplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/ShareMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/ShareMomentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/impl/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/service/package-info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/util/DruidEncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/util/LoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/util/TreeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/websocket/ChickenSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/mapper/SensitiveWordsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/mapper/ShareCircleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/mapper/ShareCommentReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/mapper/ShareMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/mapper/ShareMomentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mb-study-circle/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb153df1-73fe-42b1-b9c7-cd7748c70419.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cb153df1-73fe-42b1-b9c7-cd7748c70419.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/controller/SubjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/dto/SubjectInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/src/main/java/com/mianbao/subject/application/dto/SubjectInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/controller/SubjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/dto/SubjectInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/dto/SubjectInfoDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectInfoBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectInfoBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectOptionBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/entity/SubjectOptionBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/SubjectInfoDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/SubjectInfoDomainService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectInfoBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectInfoBO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectOptionBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/entity/SubjectOptionBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/CodeTypeHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/MultipleTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/handler/subject/MultipleTypeHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/SubjectInfoDomainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/SubjectInfoDomainService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/classes/com/mianbao/subject/domain/service/impl/SubjectInfoDomainServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" afterDir="false" />
@@ -45,7 +125,8 @@
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/java/com/mianbao/subject/infrastructure/basic/entity/SubjectCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper/SubjectCodeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper/SubjectCodeDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +241,7 @@
     "Spring Boot.WxApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/qihang-master/mianbao-study/mb-study-subject/mb-study-infrastructure/src/main/resources/mapper",
+    "last_opened_file_path": "E:/qihang-master/mianbao-study/mb-study-circle/mb-study-circle-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -179,11 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qihang-master\mianbao-study\mb-study-circle\mb-study-circle-server" />
+      <recent name="E:\qihang-master\mianbao-study\mb-study-circle\mb-study-circle-api" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-subject\mb-study-infrastructure\src\main\resources\mapper" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src\resources" />
       <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src" />
-      <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-server\src\main\java\com\mianbao\practice\server" />
-      <recent name="E:\qihang-master\mianbao-study\mb-study-prcatice\mb-study-practice-api\src\main\java\com\mianbao\practice\api\vo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mianbao.subject.infrastructure.basic.service.impl" />
@@ -303,10 +384,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SubjectApplication (1)" />
-        <item itemvalue="Spring Boot.PracticeApplication" />
         <item itemvalue="Spring Boot.WxApplication" />
         <item itemvalue="Spring Boot.OssStartApplication" />
+        <item itemvalue="Spring Boot.SubjectApplication (1)" />
+        <item itemvalue="Spring Boot.PracticeApplication" />
         <item itemvalue="Application.PracticeApplication" />
       </list>
     </recent_temporary>
@@ -386,7 +467,13 @@
       <workItem from="1735532327058" duration="1206000" />
       <workItem from="1735611288829" duration="3001000" />
       <workItem from="1735906135820" duration="18239000" />
-      <workItem from="1736418412958" duration="28643000" />
+      <workItem from="1736418412958" duration="39834000" />
+      <workItem from="1737082133573" duration="1785000" />
+      <workItem from="1737171657570" duration="584000" />
+      <workItem from="1737268641442" duration="547000" />
+      <workItem from="1737292959699" duration="5108000" />
+      <workItem from="1737907474453" duration="8785000" />
+      <workItem from="1738253590376" duration="4314000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
@@ -731,7 +818,7 @@
       <option name="project" value="LOCAL" />
       <updated>1732087149761</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +837,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat:完成用户权限的所有东西，完成网关权限配置。" />
     <MESSAGE value="feat:完成微信模块，策略模式解耦消息类型" />
     <MESSAGE value="fix:修改登录完成验证码登录获取openid" />
     <MESSAGE value="feat:完成头像上传minio和根据分类查询所有标签" />
@@ -775,7 +861,8 @@
     <MESSAGE value="fix:修改部分小bug" />
     <MESSAGE value="Feat:完成练习模块的设计" />
     <MESSAGE value="Fix:修改部分逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix:修改部分逻辑" />
+    <MESSAGE value="Feat:完成编程题的后端逻辑完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat:完成编程题的后端逻辑完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

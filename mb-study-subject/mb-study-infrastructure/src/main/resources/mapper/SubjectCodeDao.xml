@@ -10,11 +10,13 @@
         <result property="subjectId" column="subject_id" javaType="java.lang.Long" jdbcType="BIGINT"/>
         <result property="subjectDesc" column="subject_desc" javaType="java.lang.String" jdbcType="VARCHAR"/>
 
-        <!-- 复杂类型字段映射 -->
         <result property="nums" column="nums" javaType="java.util.List" jdbcType="VARCHAR"
-        typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler"/>
-        <result property="result" column="result" javaType="java.util.List" jdbcType="VARCHAR"
                 typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler"/>
+
+
+        <!-- 映射 result 字段 -->
+        <result property="result" column="result" javaType="java.util.List" jdbcType="VARCHAR"
+                typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler" />
 
         <!-- 普通字段映射 -->
         <result property="hints" column="hints" javaType="java.lang.String" jdbcType="VARCHAR"/>

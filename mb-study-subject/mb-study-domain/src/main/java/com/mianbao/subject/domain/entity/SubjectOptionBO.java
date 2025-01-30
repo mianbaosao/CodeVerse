@@ -32,12 +32,12 @@ public class SubjectOptionBO implements Serializable {
     /**
      * 输入
      */
-    private List<List<Integer>>nums;
+    private List<String>nums;
 
     /**
      * 输出
      */
-    private List<List<Integer>>result;
+    private List<String>result;
 
     /**
      * 提示

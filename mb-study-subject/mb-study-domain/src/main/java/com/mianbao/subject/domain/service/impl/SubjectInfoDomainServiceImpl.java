@@ -166,8 +166,9 @@ public class SubjectInfoDomainServiceImpl implements SubjectInfoDomainService {
         SubjectInfo subjectInfo = subjectInfoService.queryById(subjectInfoBO.getId());
         SubjectTypeHandler handler = subjectHandlerTypeFactory.getHandler(subjectInfo.getSubjectType());
         SubjectOptionBO optionBO = handler.query(subjectInfo.getId().intValue());
-        System.out.println("此时编程题信息为"+JSON.toJSONString(optionBO));
+        System.out.println("此时编程题信息为"+optionBO);
         SubjectInfoBO bo = SubjectInfoConverter.INSTANCE.convertOptionAndInfoToBo(optionBO, subjectInfo);
+        System.out.println("此时编程题返回信息为"+bo);
         SubjectMapping subjectMapping = new SubjectMapping();
         subjectMapping.setSubjectId(subjectInfo.getId());
         subjectMapping.setIsDeleted(IsDeleteEnum.UN_DELETED.getCode());

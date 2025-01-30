@@ -111,5 +111,21 @@ public class SubjectInfoDTO extends PageInfo implements Serializable {
      * 上一题
      */
     private Long lastSubjectId;
+
+    /**
+     * 输入
+     */
+    private List<String>nums;
+
+    /**
+     * 输出
+     */
+    private List<String>result;
+
+    /**
+     * 提示
+     */
+    private String hints;
+
 }
 

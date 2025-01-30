@@ -16,9 +16,9 @@ public class SubjectCode {
     private Long subjectId;
     private String subjectDesc;
 
-    private List<List<Integer>> nums;
+    private List<String> nums;
 
-    private List<List<Integer>> result;
+    private List<String> result;
 
     private String hints;
 

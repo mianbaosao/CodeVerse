@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/mb-study-prcatice/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/mb-study-circle/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -37,9 +39,11 @@
         <module name="mb-study-auth-domain" />
         <module name="mb-study-practice-api" />
         <module name="mb-study-domain" />
+        <module name="mb-study-circle-api" />
         <module name="mb-study-forum-infrastructure" />
         <module name="mb-study-auth-api" />
         <module name="mb-study-weChat" />
+        <module name="mb-study-circle-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
