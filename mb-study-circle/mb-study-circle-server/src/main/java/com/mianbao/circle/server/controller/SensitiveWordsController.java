@@ -27,7 +27,7 @@ import java.util.Objects;
  */
 @Slf4j
 @RestController
-@RequestMapping("/circle/sensitive/words")
+@RequestMapping("/sensitive/words")
 public class SensitiveWordsController {
 
     @Resource

@@ -3,7 +3,7 @@ package com.mianbao.circle.server.entity.po;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.jingdianjichi.circle.api.common.TreeNode;
+import com.mianbao.circle.api.common.TreeNode;
 import lombok.Getter;
 import lombok.Setter;
 

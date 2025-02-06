@@ -13,9 +13,9 @@ import org.springframework.context.annotation.ComponentScan;
  * @date: 2024/3/2
  */
 @SpringBootApplication
-@ComponentScan("com.bread")
-@MapperScan("com.bread.**.dao")
-@EnableFeignClients(basePackages = "com.bread")
+@ComponentScan("com.mianbao")
+@MapperScan("com.mianbao.**.dao")
+@EnableFeignClients(basePackages = "com.mianbao")
 public class CircleApplication {
 
     public static void main(String[] args) {

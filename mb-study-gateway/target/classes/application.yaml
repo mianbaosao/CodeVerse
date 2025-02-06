@@ -35,6 +35,12 @@ spring:
             - Path=/practice/**
           filters:
             - StripPrefix=1
+        - id: circle
+          uri: lb://mb-study-circle
+          predicates:
+            - Path=/circle/**
+          filters:
+            - StripPrefix=1
   redis:
     database: 1
     host: 117.72.37.31
