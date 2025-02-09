@@ -28,7 +28,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/user/")
 @Slf4j
-@CrossOrigin(origins = "http://localhost:8003", allowCredentials = "true")
+@CrossOrigin("*")
 public class UserController {
 
     @Resource

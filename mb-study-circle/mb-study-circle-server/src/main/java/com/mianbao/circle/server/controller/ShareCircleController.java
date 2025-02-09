@@ -11,11 +11,7 @@ import com.mianbao.circle.api.vo.ShareCircleVO;
 import com.mianbao.circle.server.entity.po.ShareCircle;
 import com.mianbao.circle.server.service.ShareCircleService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -32,6 +28,8 @@ import java.util.Objects;
 @Slf4j
 @RestController
 @RequestMapping("/share/circle")
+@CrossOrigin("*")
+
 public class ShareCircleController {
 
     @Resource

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mb-study-circle-dev
+    name: mb-study-circle
   profiles:
     active: dev
   cloud:

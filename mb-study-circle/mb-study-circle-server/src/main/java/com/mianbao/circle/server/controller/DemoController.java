@@ -1,6 +1,7 @@
 package com.mianbao.circle.server.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/circle/")
 @Slf4j
+@CrossOrigin("*")
+
 public class DemoController {
 
     @RequestMapping("test")

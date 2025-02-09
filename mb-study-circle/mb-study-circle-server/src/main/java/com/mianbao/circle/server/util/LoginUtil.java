@@ -5,8 +5,8 @@ import com.mianbao.circle.server.config.context.LoginContextHolder;
 /**
  * 用户登录util
  *
- * @author: ChickenWing
- * @date: 2023/11/26
+ * @author: bread
+ * @date: 2024/11/26
  */
 public class LoginUtil {
 

@@ -19,10 +19,7 @@ import com.mianbao.circle.server.service.ShareMessageService;
 import com.mianbao.circle.server.service.ShareMomentService;
 import com.mianbao.circle.server.util.LoginUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -39,6 +36,8 @@ import java.util.Objects;
 @Slf4j
 @RestController
 @RequestMapping("/share/comment")
+@CrossOrigin("*")
+
 public class ShareCommentController {
 
     @Resource
