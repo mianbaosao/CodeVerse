@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * <p>
- * 鸡圈内容信息
+ * 论坛内容信息
  * </p>
  *
  * @author: bread

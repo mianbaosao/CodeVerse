@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  * 圈子微服务启动类
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.mianbao")
 @MapperScan("com.mianbao.**.dao")
 @EnableFeignClients(basePackages = "com.mianbao")
+@CrossOrigin("*")
 public class CircleApplication {
 
     public static void main(String[] args) {
