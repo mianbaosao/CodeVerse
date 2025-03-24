@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mb-study-forum/mb-study-forum-domain/mb-stduy-forum-domain.iml" filepath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-domain/mb-stduy-forum-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mb-study-practice-server.iml" filepath="$PROJECT_DIR$/mb-study-practice-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mianbao-study.iml" filepath="$PROJECT_DIR$/.idea/mianbao-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/mb-study-subject/mb-study-application/qh-club-application.iml" filepath="$PROJECT_DIR$/mb-study-subject/mb-study-application/qh-club-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/mb-study-subject/mb-study-commom/qh-club-commom.iml" filepath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/qh-club-commom.iml" />

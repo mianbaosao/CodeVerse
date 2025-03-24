@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/mb-study-prcatice/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/mb-study-practice/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/mb-study-circle/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
@@ -48,7 +48,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="mb-stduy-forum-domain" target="8" />
-      <module name="mb-study-practice" target="1.8" />
+      <module name="mb-study-practice-api (1)" target="1.8" />
+      <module name="mb-study-practice-server (1)" target="1.8" />
       <module name="mb-study-prcatice-api" target="1.8" />
       <module name="qh-club-application" target="8" />
       <module name="qh-club-commom" target="1.8" />
