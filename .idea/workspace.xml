@@ -8,14 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Feat:完成社区模块后端处理">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareCommentReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareCommentReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareMomentReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-api/src/main/java/com/mianbao/circle/api/req/RemoveShareMomentReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/CircleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/CircleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareCommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareMomentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/java/com/mianbao/circle/server/controller/ShareMomentController.java" afterDir="false" />
-    </list>
+    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Feat:完成社区模块后端处理" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +44,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -80,12 +74,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mianbaosao/CodeVerse.git&quot;,
-    &quot;accountId&quot;: &quot;df11d691-928b-4b2d-8ffd-33c448a17eca&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mianbaosao/CodeVerse.git",
+    "accountId": "7674b3b7-a135-4275-aec0-aa2fe19f8fac"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -124,6 +118,7 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -138,7 +133,7 @@
     "Spring Boot.WxApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/cursor/CodeVerse-front-master",
+    "last_opened_file_path": "/Users/kker/work/CodeVerse",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -256,6 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mb-study-practice-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mianbao.practice.server.PracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mb-study-starter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mianbao.subject.SubjectApplication" />
@@ -280,6 +282,7 @@
       <item itemvalue="Application.OssStartApplication" />
       <item itemvalue="Application.PracticeApplication" />
       <item itemvalue="Application.SubjectApplication" />
+      <item itemvalue="Spring Boot.PracticeApplication" />
       <item itemvalue="Spring Boot.SubjectApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ForumApplication" />
@@ -300,8 +303,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
       </set>
     </attachedChunks>
   </component>
@@ -392,6 +395,7 @@
       <workItem from="1739512060261" duration="2803000" />
       <workItem from="1740389092009" duration="8007000" />
       <workItem from="1740469308997" duration="6745000" />
+      <workItem from="1742779444750" duration="3812000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
