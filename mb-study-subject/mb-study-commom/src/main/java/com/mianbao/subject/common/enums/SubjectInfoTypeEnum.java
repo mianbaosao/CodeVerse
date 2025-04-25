@@ -3,7 +3,7 @@ package com.mianbao.subject.common.enums;
 /**
  * @Description: 题目类型的枚举
  * @Author:bread
- * @Date: 2024-08-26 19:48
+ * @Date: 2024-08-26 19:4
  */
 public enum SubjectInfoTypeEnum {
     RADIO(1, "单选"),

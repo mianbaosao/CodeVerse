@@ -15,7 +15,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * Redis的config处理
- *
+ * 这个配置类主要用于设置对 Redis 数据的序列化和反序列化方式。
  * @author: bread
  * @date: 2024/10/04
  */

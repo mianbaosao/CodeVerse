@@ -8,228 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Feat:完成社区模块后端处理">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Fix:practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/PageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/common/ResultCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/AnswerStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/AnswerStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/CompleteStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/CompleteStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/IsDeletedFlagEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/IsDeletedFlagEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/SetTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/SetTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/SubjectInfoTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/enums/SubjectInfoTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectListReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectListReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectsReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPracticeSubjectsReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPreSetReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetPreSetReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetReportReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetReportReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetScoreDetailReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetScoreDetailReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetSubjectDetailReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetSubjectDetailReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetUnCompletePracticeReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/GetUnCompletePracticeReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/SubmitPracticeDetailReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/SubmitPracticeDetailReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/SubmitSubjectDetailReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/req/SubmitSubjectDetailReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSetVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSetVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectDetailVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectDetailVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectListVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectListVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectOptionVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectOptionVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/PracticeSubjectVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/RankVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/RankVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ReportSkillVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ReportSkillVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ReportVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ReportVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ScoreDetailVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/ScoreDetailVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeCategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeCategoryVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeLabelVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeLabelVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SpecialPracticeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SubjectDetailVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/SubjectDetailVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/UnCompletePracticeSetVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/practice/api/vo/UnCompletePracticeSetVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/src/main/java/com/mianbao/subject/infrastructure/basic/entity/entity/SubjectCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-api/src/main/java/com/mianbao/subject/infrastructure/basic/entity/entity/SubjectCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/common/PageInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/common/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/common/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/common/ResultCodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/enums/AnswerStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/enums/CompleteStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/enums/IsDeletedFlagEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/enums/SetTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/enums/SubjectInfoTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetPracticeSubjectListReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetPracticeSubjectReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetPracticeSubjectsReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetPreSetReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetReportReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetScoreDetailReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetSubjectDetailReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/GetUnCompletePracticeReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/SubmitPracticeDetailReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/req/SubmitSubjectDetailReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/PracticeSetVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/PracticeSubjectDetailVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/PracticeSubjectListVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/PracticeSubjectOptionVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/PracticeSubjectVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/RankVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/ReportSkillVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/ReportVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/ScoreDetailVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/SpecialPracticeCategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/SpecialPracticeLabelVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/SpecialPracticeVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/SubjectDetailVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-api/target/classes/com/mianbao/practice/api/vo/UnCompletePracticeSetVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/PracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/PracticeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/GlobalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/context/LoginContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/context/LoginContextHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/FeignConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/FeignRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/FeignRequestInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/MybatisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/MybatisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/MybatisPlusAllSqlLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/MybatisPlusAllSqlLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/SqlStatementInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/mybatis/SqlStatementInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/redis/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/config/redis/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/PracticeDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/PracticeDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/PracticeSetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/controller/PracticeSetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeDetailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeSetDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeSetDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeSetDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/PracticeSetDetailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectCategoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectJudgeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectJudgeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectLabelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectLabelDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectMappingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectMappingDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectMultipleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectMultipleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectRadioDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/SubjectRadioDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/package-info.md" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/dao/package-info.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/CategoryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/PracticeSetDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/PracticeSetDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/PracticeSubjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/PracticeSubjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectDetailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectOptionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/SubjectOptionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/dto/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/package-info.md" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/package-info.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/CategoryPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/CategoryPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/LabelCountPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/LabelCountPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeDetailPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeDetailPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeRankPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeRankPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeSetDetailPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeSetDetailPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeSetPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PracticeSetPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PrimaryCategoryPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/PrimaryCategoryPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectJudgePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectJudgePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectLabelPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectLabelPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectMappingPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectMappingPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectMultiplePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectMultiplePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectRadioPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/entity/po/SubjectRadioPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/rpc/UserRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/rpc/UserRpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/PracticeDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/PracticeDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/PracticeSetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/PracticeSetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/impl/PracticeDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/impl/PracticeDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/impl/PracticeSetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/impl/PracticeSetServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/package-info.md" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/service/package-info.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/DruidEncryptUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/DruidEncryptUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/LoginUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/main/java/com/mianbao/practice/server/util/LoginUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/log4j2-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/log4j2-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/PracticeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/PracticeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/PracticeDetailDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/PracticeDetailDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/PracticeSetDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/PracticeSetDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/PracticeSetDetailDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/PracticeSetDetailDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectJudgeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectJudgeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectLabelDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectLabelDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectMappingDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectMappingDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectMultipleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectMultipleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/src/resources/mapper/SubjectRadioDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/mb-study-practice-server/src/resources/mapper/SubjectRadioDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/PracticeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/GlobalConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/context/LoginContextHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/interceptor/FeignConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/interceptor/FeignRequestInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/interceptor/LoginInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/mybatis/MybatisConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/mybatis/MybatisPlusAllSqlLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/mybatis/SqlStatementInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/redis/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/config/redis/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/controller/PracticeDetailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/controller/PracticeSetController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/PracticeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/PracticeDetailDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/PracticeSetDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/PracticeSetDetailDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectCategoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectJudgeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectLabelDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectMappingDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectMultipleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/dao/SubjectRadioDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/CategoryDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/PracticeSetDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/PracticeSubjectDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/SubjectDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/SubjectDetailDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/SubjectOptionDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/dto/UserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/CategoryPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/LabelCountPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PracticeDetailPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PracticePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PracticeRankPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PracticeSetDetailPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PracticeSetPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/PrimaryCategoryPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectJudgePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectLabelPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectMappingPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectMultiplePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/entity/po/SubjectRadioPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/rpc/UserRpc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/service/PracticeDetailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/service/PracticeSetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/service/impl/PracticeDetailServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/service/impl/PracticeSetServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/util/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/util/DruidEncryptUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/com/mianbao/practice/server/util/LoginUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/log4j2-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/PracticeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/PracticeDetailDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/PracticeSetDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/PracticeSetDetailDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectJudgeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectLabelDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectMappingDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectMultipleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/mb-study-practice-server/target/classes/mapper/SubjectRadioDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-prcatice/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-practice/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-practice/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java/com/mianbao/subject/common/enums/SubjectInfoTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java/com/mianbao/subject/common/enums/SubjectInfoTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/redis/RedisConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,12 +78,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mianbaosao/CodeVerse.git",
-    "accountId": "7674b3b7-a135-4275-aec0-aa2fe19f8fac"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mianbaosao/CodeVerse.git&quot;,
+    &quot;accountId&quot;: &quot;7674b3b7-a135-4275-aec0-aa2fe19f8fac&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -325,50 +107,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CircleApplication.executor": "Run",
-    "Application.GatewayApplication.executor": "Run",
-    "Application.OssStartApplication.executor": "Run",
-    "Application.PracticeApplication.executor": "Run",
-    "Application.SubjectApplication.executor": "Run",
-    "Application.WxApplication.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.mb-study-circle-server [site...].executor": "Debug",
-    "Maven.mb-study-weChat [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.AuthApplication.executor": "Run",
-    "Spring Boot.CircleApplication.executor": "Run",
-    "Spring Boot.ForumApplication.executor": "Run",
-    "Spring Boot.GatewayApplication (1).executor": "Run",
-    "Spring Boot.OssStartApplication.executor": "Run",
-    "Spring Boot.PracticeApplication.executor": "Run",
-    "Spring Boot.SubjectApplication (1).executor": "Run",
-    "Spring Boot.SubjectApplication.executor": "Run",
-    "Spring Boot.WxApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kker/work/CodeVerse",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3091954",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CircleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OssStartApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WxApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mb-study-circle-server [site...].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.mb-study-weChat [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CircleApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ForumApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OssStartApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PracticeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SubjectApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SubjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.WxApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kker/work/CodeVerse&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -504,11 +286,11 @@
       <item itemvalue="Application.OssStartApplication" />
       <item itemvalue="Application.PracticeApplication" />
       <item itemvalue="Application.SubjectApplication" />
-      <item itemvalue="Spring Boot.PracticeApplication" />
-      <item itemvalue="Spring Boot.SubjectApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ForumApplication" />
       <item itemvalue="Spring Boot.GatewayApplication (1)" />
+      <item itemvalue="Spring Boot.PracticeApplication" />
+      <item itemvalue="Spring Boot.SubjectApplication" />
       <item itemvalue="Spring Boot.CircleApplication" />
       <item itemvalue="Spring Boot.WxApplication" />
     </list>
@@ -617,7 +399,11 @@
       <workItem from="1739512060261" duration="2803000" />
       <workItem from="1740389092009" duration="8007000" />
       <workItem from="1740469308997" duration="6745000" />
-      <workItem from="1742779444750" duration="4941000" />
+      <workItem from="1742779444750" duration="23626000" />
+      <workItem from="1743499605420" duration="1329000" />
+      <workItem from="1744187468787" duration="765000" />
+      <workItem from="1744188382538" duration="71000" />
+      <workItem from="1744939367676" duration="12130000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
@@ -962,7 +748,7 @@
       <option name="project" value="LOCAL" />
       <updated>1732087149761</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,7 +759,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -981,7 +773,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix:修改登录完成验证码登录获取openid" />
     <MESSAGE value="feat:完成头像上传minio和根据分类查询所有标签" />
     <MESSAGE value="feat:完成用户信息上下文对接" />
     <MESSAGE value="feat:完成openfeign在各个服务之间的调用" />
@@ -1006,7 +797,8 @@
     <MESSAGE value="Fix:修改部分逻辑" />
     <MESSAGE value="Feat:完成编程题的后端逻辑完成" />
     <MESSAGE value="Feat:完成社区模块后端处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat:完成社区模块后端处理" />
+    <MESSAGE value="Fix:practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix:practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
