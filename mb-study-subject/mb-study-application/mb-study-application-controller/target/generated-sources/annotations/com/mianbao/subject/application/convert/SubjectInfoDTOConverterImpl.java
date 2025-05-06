@@ -10,7 +10,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-01-14T17:48:35+0800",
+    date = "2025-05-04T16:53:00+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_291 (Oracle Corporation)"
 )
 public class SubjectInfoDTOConverterImpl implements SubjectInfoDTOConverter {
@@ -64,6 +64,15 @@ public class SubjectInfoDTOConverterImpl implements SubjectInfoDTOConverter {
         subjectInfoBO.setLikedCount( subjectInfoDTO.getLikedCount() );
         subjectInfoBO.setNextSubjectId( subjectInfoDTO.getNextSubjectId() );
         subjectInfoBO.setLastSubjectId( subjectInfoDTO.getLastSubjectId() );
+        List<String> list4 = subjectInfoDTO.getNums();
+        if ( list4 != null ) {
+            subjectInfoBO.setNums( new ArrayList<String>( list4 ) );
+        }
+        List<String> list5 = subjectInfoDTO.getResult();
+        if ( list5 != null ) {
+            subjectInfoBO.setResult( new ArrayList<String>( list5 ) );
+        }
+        subjectInfoBO.setHints( subjectInfoDTO.getHints() );
 
         return subjectInfoBO;
     }
@@ -103,6 +112,15 @@ public class SubjectInfoDTOConverterImpl implements SubjectInfoDTOConverter {
         subjectInfoDTO.setLikedCount( subjectInfoBO.getLikedCount() );
         subjectInfoDTO.setNextSubjectId( subjectInfoBO.getNextSubjectId() );
         subjectInfoDTO.setLastSubjectId( subjectInfoBO.getLastSubjectId() );
+        List<String> list4 = subjectInfoBO.getNums();
+        if ( list4 != null ) {
+            subjectInfoDTO.setNums( new ArrayList<String>( list4 ) );
+        }
+        List<String> list5 = subjectInfoBO.getResult();
+        if ( list5 != null ) {
+            subjectInfoDTO.setResult( new ArrayList<String>( list5 ) );
+        }
+        subjectInfoDTO.setHints( subjectInfoBO.getHints() );
 
         return subjectInfoDTO;
     }

@@ -9,9 +9,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c56b09ae-f3e3-459d-9e26-abda657e622b" name="Default Changelist" comment="Fix:practice">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java/com/mianbao/subject/common/enums/SubjectInfoTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-commom/src/main/java/com/mianbao/subject/common/enums/SubjectInfoTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-api/target/classes/com/mianbao/auth/entity/ResultCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-api/target/classes/com/mianbao/auth/entity/ResultCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthPermissionDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthPermissionDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthRoleDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthRoleDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthRolePermissionDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthRolePermissionDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthUserDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-application/mb-study-auth-application-controller/target/generated-sources/annotations/com/mianbao/auth/application/convert/AuthUserDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/src/main/java/com/mianbao/auth/domain/service/impl/AuthUserDomainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/src/main/java/com/mianbao/auth/domain/service/impl/AuthUserDomainServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/classes/com/mianbao/auth/domain/service/impl/AuthUserDomainServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/classes/com/mianbao/auth/domain/service/impl/AuthUserDomainServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthPermissionBOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthPermissionBOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthRoleBOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthRoleBOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthUserBOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-domain/target/generated-sources/annotations/com/mianbao/auth/domain/convert/AuthUserBOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-auth/mb-study-auth-starter/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-circle/mb-study-circle-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-application/target/generated-sources/annotations/com/mianbao/forum/application/convert/BlogDataDtoConverToBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-application/target/generated-sources/annotations/com/mianbao/forum/application/convert/BlogDataDtoConverToBoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-domain/target/generated-sources/annotations/com/mianbao/forum/common/convert/BlogDataBoConvertToPoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-domain/target/generated-sources/annotations/com/mianbao/forum/common/convert/BlogDataBoConvertToPoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-forum/mb-study-forum-starter/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-gateway/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/src/main/java/com/bread/oss/config/StorageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/src/main/java/com/bread/oss/config/StorageConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-oss/target/classes/com/bread/oss/config/StorageConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-oss/target/classes/com/bread/oss/config/StorageConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/classes/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectAnswerDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectCategoryDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectInfoDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-application/mb-study-application-controller/target/generated-sources/annotations/com/mianbao/subject/application/convert/SubjectLabelDTOConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/SubjectHandlerTypeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/src/main/java/com/mianbao/subject/domain/handler/subject/SubjectHandlerTypeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/BriefSubjectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/JudgeSubejectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/MultipleSubejectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/MultipleSubejectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/RadioSubjectConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/RadioSubjectConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectCategoryConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectInfoConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-domain/target/generated-sources/annotations/com/mianbao/subject/domain/convert/SubjectLabelConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-subject/mb-study-starter/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-weChat/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-weChat/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mb-study-weChat/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mb-study-weChat/target/classes/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +99,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -81,7 +131,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/mianbaosao/CodeVerse.git&quot;,
-    &quot;accountId&quot;: &quot;7674b3b7-a135-4275-aec0-aa2fe19f8fac&quot;
+    &quot;accountId&quot;: &quot;df11d691-928b-4b2d-8ffd-33c448a17eca&quot;
   }
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -122,7 +172,6 @@
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
@@ -137,7 +186,7 @@
     &quot;Spring Boot.WxApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kker/work/CodeVerse&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java-project/ai-rag-knowledge-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -181,7 +230,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SubjectApplication">
+  <component name="RunManager" selected="Application.OssStartApplication">
     <configuration name="OssStartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bread.oss.OssStartApplication" />
       <module name="mb-study-oss" />
@@ -286,20 +335,20 @@
       <item itemvalue="Application.OssStartApplication" />
       <item itemvalue="Application.PracticeApplication" />
       <item itemvalue="Application.SubjectApplication" />
+      <item itemvalue="Spring Boot.PracticeApplication" />
+      <item itemvalue="Spring Boot.SubjectApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ForumApplication" />
       <item itemvalue="Spring Boot.GatewayApplication (1)" />
-      <item itemvalue="Spring Boot.PracticeApplication" />
-      <item itemvalue="Spring Boot.SubjectApplication" />
       <item itemvalue="Spring Boot.CircleApplication" />
       <item itemvalue="Spring Boot.WxApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CircleApplication" />
-        <item itemvalue="Application.PracticeApplication" />
         <item itemvalue="Application.OssStartApplication" />
+        <item itemvalue="Spring Boot.CircleApplication" />
         <item itemvalue="Spring Boot.WxApplication" />
+        <item itemvalue="Application.PracticeApplication" />
         <item itemvalue="Application.SubjectApplication" />
       </list>
     </recent_temporary>
@@ -307,8 +356,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -399,11 +448,12 @@
       <workItem from="1739512060261" duration="2803000" />
       <workItem from="1740389092009" duration="8007000" />
       <workItem from="1740469308997" duration="6745000" />
-      <workItem from="1742779444750" duration="23626000" />
-      <workItem from="1743499605420" duration="1329000" />
-      <workItem from="1744187468787" duration="765000" />
-      <workItem from="1744188382538" duration="71000" />
-      <workItem from="1744939367676" duration="12130000" />
+      <workItem from="1745925082462" duration="595000" />
+      <workItem from="1746001169975" duration="600000" />
+      <workItem from="1746343448810" duration="9014000" />
+      <workItem from="1746361075901" duration="2564000" />
+      <workItem from="1746445853024" duration="593000" />
+      <workItem from="1746532347868" duration="2328000" />
     </task>
     <task id="LOCAL-00017" summary="chore:maven重新打包">
       <created>1725789771634</created>
@@ -748,7 +798,7 @@
       <option name="project" value="LOCAL" />
       <updated>1732087149761</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,13 +809,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -773,6 +817,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix:修改登录完成验证码登录获取openid" />
     <MESSAGE value="feat:完成头像上传minio和根据分类查询所有标签" />
     <MESSAGE value="feat:完成用户信息上下文对接" />
     <MESSAGE value="feat:完成openfeign在各个服务之间的调用" />
@@ -797,8 +842,7 @@
     <MESSAGE value="Fix:修改部分逻辑" />
     <MESSAGE value="Feat:完成编程题的后端逻辑完成" />
     <MESSAGE value="Feat:完成社区模块后端处理" />
-    <MESSAGE value="Fix:practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix:practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat:完成社区模块后端处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

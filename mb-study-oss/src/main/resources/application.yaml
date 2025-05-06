@@ -1,8 +1,12 @@
 server:
   port: 4000
 minio:
-  url: http://117.72.37.31:9000
+  url: http://43.143.4.9:9002
   accessKey: minioadmin
   secretKey: minioadmin
+  bucket: bread
+storage:
+  service:
+    type: minio
 
 

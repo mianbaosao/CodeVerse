@@ -50,6 +50,7 @@
       <module name="mb-stduy-forum-domain" target="8" />
       <module name="mb-study-practice-api (1)" target="1.8" />
       <module name="mb-study-practice-server (1)" target="1.8" />
+      <module name="mb-study-prcatice" target="1.8" />
       <module name="mb-study-prcatice-api" target="1.8" />
       <module name="qh-club-application" target="8" />
       <module name="qh-club-commom" target="1.8" />

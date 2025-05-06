@@ -5,6 +5,7 @@ package com.bread.oss.config;
 import com.bread.oss.adapter.StorageAdapter;
 import com.bread.oss.adapter.impl.AliCloldAdapterImpl;
 import com.bread.oss.adapter.impl.MinioAdapterImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Bean;
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.Configuration;
  * @author: bread
  * @date: 2024/09/11
  */
+@Slf4j
 @Configuration
 @RefreshScope
 public class StorageConfig {
@@ -25,7 +27,7 @@ public class StorageConfig {
     @Bean
     @RefreshScope
     public StorageAdapter storageService() {
-        System.out.println(storageType+"11111111111111111111111111111111111111111");
+        log.info("[storageType]"+storageType);
         if ("minio".equals(storageType)) {
             return new MinioAdapterImpl();
         } else if ("aliyun".equals(storageType)) {

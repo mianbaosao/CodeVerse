@@ -43,7 +43,7 @@ spring:
             - StripPrefix=1
   redis:
     database: 1
-    host: 117.72.37.31
+    host: 43.143.4.9
     port: 6379
     password: he13140303042
     timeout: 2s

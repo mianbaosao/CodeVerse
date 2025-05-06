@@ -26,7 +26,7 @@ public class SubjectHandlerTypeFactory implements InitializingBean {
 
     private Map<SubjectInfoTypeEnum,SubjectTypeHandler> handlerMap=new HashMap<>();
 
-    public SubjectTypeHandler getHandler(int subjectType) {
+    public SubjectTypeHandler  getHandler(int subjectType) {
         SubjectInfoTypeEnum subjectInfoTypeEnum = SubjectInfoTypeEnum.getByCode(subjectType);
         return handlerMap.get(subjectInfoTypeEnum);
     }
