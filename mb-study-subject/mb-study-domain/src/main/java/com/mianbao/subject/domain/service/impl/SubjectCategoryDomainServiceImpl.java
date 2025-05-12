@@ -2,6 +2,7 @@ package com.mianbao.subject.domain.service.impl;
 
 import com.alibaba.fastjson.JSON;
 
+import com.mianbao.subject.domain.entity.SubjectInfoBO;
 import org.apache.commons.collections4.MapUtils;
 import com.mianbao.subject.common.enums.IsDeleteEnum;
 import com.mianbao.subject.domain.convert.SubjectCategoryConverter;
@@ -171,8 +172,8 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
         List<Long> labelIdList = mappingList.stream().map(SubjectMapping::getLabelId).collect(Collectors.toList());
         List<SubjectLabel> labelList = subjectLabelService.batchQueryById(labelIdList);
         List<SubjectLabelBO> labelBOList = new LinkedList<>();
-        labelList.forEach(label -> {
-            SubjectLabelBO subjectLabelBO = new SubjectLabelBO();
+        labelList.forEach(label->{
+            SubjectLabelBO subjectLabelBO=new SubjectLabelBO();
             subjectLabelBO.setId(label.getId());
             subjectLabelBO.setLabelName(label.getLabelName());
             subjectLabelBO.setCategoryId(label.getCategoryId());
